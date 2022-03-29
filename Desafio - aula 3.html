@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de notas</title>
+</head>
+<body>
+    
+
+    <form>
+        <h1>Lançamento de notas</h1>
+        <br>
+        <div>
+            <label><strong>Selecione a disciplina </strong></label>
+            <select name="disciplina" id="disciplina">
+                <option value="0">Introdução à informática</option>
+                <option value="1">Linguagens de Programação</option>
+                <option value="2">Programação de computadores</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>Nome do aluno</th>
+                    <th>Prova 1</th>
+                    <th>Prova 2</th>
+                    <th>Exame</th>
+                    <th>Média</th>
+                    <th>Faltas</th>
+                </tr>
+                <tr>
+                    <td>Joana da Silva</td>
+                    <td>
+                        <input type="number" min="0" max="10" value="8.0" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" value="7.0" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10">
+                    </td>
+                    <td>
+                        <input type="number" readonly="true" value="7.5">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="16" value="1.0" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Maria do Socorro</td>
+                    <td>
+                        <input type="number" min="0" max="10" value="9.4" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" value="9.0" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10">
+                    </td>
+                    <td>
+                        <input type="number" readonly="true" value="9.5">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="16" value="0" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pedro Santos</td>
+                    <td>
+                        <input type="number" min="0" max="10" value="6.0" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" value="5.0" required>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" value="7.5">
+                    </td>
+                    <td>
+                        <input type="number" readonly="true" value="6.5">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="16" value="0" required>
+                    </td>
+                </tr>
+            </table>
+        </div>
+       
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
