@@ -1,0 +1,91 @@
+body{
+    background-color: aqua;
+}
+
+header{
+    margin: 50px auto 50px auto;
+}
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: baseline;
+}
+  
+
+form{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.2), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    border-radius: 6px;
+    height: 20px;
+}
+
+select{
+    border-radius: 6px;
+    height: 25px;
+}
+
+textarea{
+    border-radius: 6px;
+}
+
+table{
+    border: 1.5px solid black;
+    text-align: inherit;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    border-radius: 4px;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.post-container{
+    width: 90%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: #fffafa;
+    text-align:inherit;
+}
+
+.post-container div.label{
+    font-family:'Open Sans', sans-serif;
+    width: 90%;
+    font-weight: normal;
+}
+
+button{
+    border-radius: 4px;
+    padding: 8px 4px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 217, 255);  
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+    background-color: rgb(0, 217, 255);  
+}
